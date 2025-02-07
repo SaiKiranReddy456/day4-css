@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .container{
+            background:white;
+            /* position: sticky;  */
+            width:100%;
+            height:10vh;
+            display: inline-block; 
+        }
+        nav{
+            display: inline-block;   
+        }
+
+        .el2{
+            margin-left: 80%;
+
+        }
+        .el3, .el4{
+            padding: 7px;
+        }
+        .content{
+            top:0;
+            left: 0;
+            position:fixed;
+            background:white;
+            width:100%;
+            height:10vh;
+            display: inline-block; 
+            z-index: 3;
+
+        }
+        .el1{
+            position: absolute;
+            top: 20px;
+            left: 10px;
+        
+        }
+        .el2{
+            position: absolute;
+            top: 30px;
+            right:140px;
+
+        }
+        .el3{
+            position: absolute;
+            top: 23px;
+            right:80px;
+        }
+        .el4{
+            position: absolute;
+            top: 23px;
+            right:10px;
+        }
+        .el1::first-letter{
+            font-size: xx-large;
+            
+        }
+        .image{
+            height:10vh;
+            margin:2.5%;
+            
+        }
+        .text{
+            position: relative;
+            
+        }
+        .hi{
+            position:absolute;
+            right:40%;
+            top:100px;
+            font-size: 50px;
+            color:white;
+        }
+        
+        .project{
+            margin-top: 30px;
+            font-size: xx-large;
+            margin-left: 2.5%;
+        }
+        .project:hover{
+            background: grey;
+
+        }
+
+        .picture img{
+            
+
+            width:19%;
+            /* padding:2%; */
+            height:40vh;
+            position:relative;
+            margin: 2.5%;
+            /* margin-right: 8px; */
+            /* margin-left: 1%; */
+            
+        
+            
+        }
+        .summer{
+            position:absolute;
+            top:73vw;
+            left:6.5vh;
+            background: black;
+            color: white;
+            /* z-index: 2; */
+        }
+        .brick{
+            position:absolute;
+            top:73vw;
+            left:58.5vh;
+            background: black;
+            color: white;
+            /* z-index: 2; */
+        }
+        .renovated{
+            position:absolute;
+            top:73vw;
+            left:110.5vh;
+            background: black;
+            color: white;
+            /* z-index: 2; */
+        }
+        .barn{
+            position:absolute;
+            top:73vw;
+            left:162.5vh;
+            background: black;
+            color: white;
+            /* z-index: 2; */
+        }
+        .About{
+            margin-top: 15px;
+            font-size: xx-large;
+            margin-left: 2.5%;
+        }
+        .Contact{
+            margin-top: 30px;
+            font-size: xx-large;
+            margin-left: 2.5%;
+        }
+        .name{
+            width:90%;
+            font-size: large;
+            margin-right:20px;
+            margin-top:20px;
+            margin-bottom:20px;
+            margin-left: 20px;
+            /* margin:2.5% */
+        }
+        .card{
+            width:20%;
+            border:2px solid black;
+            margin:30px;
+            display:inline-block;
+        }
+        .title{
+            margin: 10px;
+            text-align: center;
+            font-size: xx-large;
+        }
+        .desc{
+            margin: 10px;
+            text-align: center;
+            justify-content:space-between;
+        }
+        button{
+            border:1px solid black;
+            border-radius: 5px;
+            margin:10px;
+            text-align: center;
+            margin-left:100px;
+
+        }
+        button:hover{
+            background: black;
+            color:white;
+
+        }
+        .des{
+            text-align: center;
+        }
+        .footer{
+            background: black;
+            color: white;
+            padding:40px;
+            text-align: center;
+            /* width: 100%; */
+        }
+        .one{
+            background: black;
+            color:white;
+            margin-left:20px;
+            padding: 10px;
+        }
+        .para{
+            /* margin:2.5% */
+        }
+        #sai{
+            margin:2%;
+
+        }
+        .para{
+            margin:2.5%;
+        }
+
+
+        
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+
+        <nav class="el1"><strong>SKR <i>ARCHITECTS</i></strong></nav>
+        <nav class="el2"><strong><a href="#Projects">Projects</a></strong></nav> 
+        <nav class="el3"><strong><a href="#About">About</a></strong></nav>
+        <nav class="el4"><strong><a href="#Contact">Contact</a></strong></nav>
+        
+        </div>
+    
+    <div class="image">
+
+        <img src="img1.jpg" width="100%">
+    </div>
+
+        <div class="text"><p class="hi"></i>&nbsp;SKR <em>Architects</em></p></div>
+
+        
+    </div>
+
+    <div class="project" id="Projects">
+        
+        Projects
+    </div><hr>
+
+    <div class="picture">
+        
+        <img src="img2.jpg" width="100%">
+        <div class="summer">Summer House</div>
+        <img src="img3.jpg" width="100%">
+        <div class="brick">Brick House</div>
+        <img src="img4.jpg" width="100%">
+        <div class="renovated">Renovated House</div>
+        <img src="img5.jpg" width="100%">
+        <div class="barn">Barn House</div>
+    </div>
+
+    <div class="About" id="About">
+        
+        About
+    </div><hr>
+    <div class="para">Architecture is the art and technique of designing and building, as distinguished from the skills associated with construction. It is both the process and the product of sketching, conceiving, planning, designing, and constructing buildings or other structures.Modern architecture began after World War I as an avant-garde movement that sought to develop a completely new style appropriate for a new post-war social and economic order focused on meeting the needs of the middle and working classes. Emphasis was put on modern techniques, materials, and simplified geometric forms, paving the way for high-rise superstructures. Many architects became disillusioned with modernism which they perceived as ahistorical and anti-aesthetic, and postmodern and contemporary architecture developed. Over the years, the field of architectural construction has branched out to include everything from ship design to interior decorating.In the late 20th century a new concept was added to those included in the compass of both structure and function, the consideration of sustainability, hence sustainable architecture. To satisfy the contemporary ethos a building should be constructed in a manner which is environmentally friendly in terms of the production of its materials, its impact upon the natural and built environment of its surrounding area and the demands that it makes upon the natural environment for heating, ventilation and cooling, water use, waste products and lighting.Building first evolved out of the dynamics between needs (e.g. shelter, security, and worship) and means (available building materials and attendant skills). As human cultures developed and knowledge began to be formalized through oral traditions and practices, building became a craft, and architecture became the term used to describe the highly formalized and respected aspects of the craft. It is widely assumed that architectural success was achieved through trial and error, with progressively less trial and more replication as results became satisfactory over time. Vernacular architecture continues to be produced in many parts of the world.Asian architecture developed differently compared to Europe, and the Buddhist, Hindu and Sikh architectural styles have different characteristics. Unlike Indian and Chinese architecture, which had great influence on the surrounding regions, Japanese architecture did not. Some Asian architecture showed great regional diversity, in particular Buddhist architecture. Moreover, other architectural achievements in Asia is the Hindu temple architecture, which developed from around the 5th century CE, is in theory governed by concepts laid down in the Shastras, and is concerned with expressing the macrocosm and the microcosm.
+
+<div>In many Asian countries, pantheistic religion led to architectural forms that were designed specifically to enhance the natural landscape. Also, the grandest houses were relatively lightweight structures mainly using wood until recent times, and there are few survivals of great age. Buddhism was associated with a move to stone and brick religious structures, probably beginning as rock-cut architecture, which has often survived very well.</div>
+
+<div>Early Asian writings on architecture include the Kao Gong Ji of China from the 7th–5th centuries BC; the Shilpa Shastras of ancient India; Manjusri Vasthu Vidya Sastra of Sri Lanka and Araniko of Nepal .In Europe during the Medieval period, guilds were formed by craftsmen to organize their trades and written contracts have survived, particularly in relation to ecclesiastical buildings. The role of architect was usually one with that of master mason, or Magister lathomorum as they are sometimes described in contemporary documents.</div>
+
+<div>The major architectural undertakings were the buildings of abbeys and cathedrals. From about 900 onward, the movements of both clerics and tradesmen carried architectural knowledge across Europe, resulting in the pan-European styles Romanesque and Gothic.
+
+<div>Also, a significant part of the Middle Ages architectural heritage is numerous fortifications across the continent. From the Balkans to Spain, and from Malta to Estonia, these buildings represent an important part of European heritage.In Renaissance Europe, from about 1400 onwards, there was a revival of Classical learning accompanied by the development of Renaissance humanism, which placed greater emphasis on the role of the individual in society than had been the case during the Medieval period. Buildings were ascribed to specific architects – Brunelleschi, Alberti, Michelangelo, Palladio – and the cult of the individual had begun. There was still no dividing line between artist, architect and engineer, or any of the related vocations, and the appellation was often one of regional preference.</div>
+
+<div>A revival of the Classical style in architecture was accompanied by a burgeoning of science and engineering, which affected the proportions and structure of buildings. At this stage, it was still possible for an artist to design a bridge as the level of structural calculations involved was within the scope of the generalistThe emerging knowledge in scientific fields and the rise of new materials and technology, architecture and engineering began to separate, and the architect began to concentrate on aesthetics and the humanist aspects, often at the expense of technical aspects of building design. There was also the rise of the "gentleman architect" who usually dealt with wealthy clients and concentrated predominantly on visual qualities derived usually from historical prototypes, typified by the many country houses of Great Britain that were created in the Neo Gothic or Scottish baronial styles. Formal architectural training in the 19th century, for example at École des Beaux-Arts in France, gave much emphasis to the production of beautiful drawings and little to context and feasibility.</div>
+
+<div>Meanwhile, the Industrial Revolution laid open the door for mass production and consumption. Aesthetics became a criterion for the middle class as ornamented products, once within the province of expensive craftsmanship, became cheaper under machine production.
+
+<div>Vernacular architecture became increasingly ornamental. Housebuilders could use current architectural design in their work by combining features found in pattern books and architectural journals.Around the beginning of the 20th century, general dissatisfaction with the emphasis on revivalist architecture and elaborate decoration gave rise to many new lines of thought that served as precursors to Modern architecture. Notable among these is the Deutscher Werkbund, formed in 1907 to produce better quality machine-made objects. The rise of the profession of industrial design is usually placed here. Following this lead, the Bauhaus school, founded in Weimar, Germany in 1919, redefined the architectural bounds prior set throughout history, viewing the creation of a building as the ultimate synthesis – the apex – of art, craft, and technology.</div>
+
+<div>When modern architecture was first practiced, it was an avant-garde movement with moral, philosophical, and aesthetic underpinnings. Immediately after World War I, pioneering modernist architects sought to develop a completely new style appropriate for a new post-war social and economic order, focused on meeting the needs of the middle and working classes. They rejected the architectural practice of the academic refinement of historical styles which served the rapidly declining aristocratic order. The approach of the Modernist architects was to reduce buildings to pure forms, removing historical references and ornament in favor of functional details. Buildings displayed their functional and structural elements, exposing steel beams and concrete surfaces instead of hiding them behind decorative forms. Architects such as Frank Lloyd Wright developed organic architecture, in which the form was defined by its environment and purpose, with an aim to promote harmony between human habitation and the natural world with prime examples being Robie House and Fallingwater.</div>
+
+<div>Architects such as Mies van der Rohe, Philip Johnson and Marcel Breuer worked to create beauty based on the inherent qualities of building materials and modern construction techniques, trading traditional historic forms for simplified geometric forms, celebrating the new means and methods made possible by the Industrial Revolution, including steel-frame construction, which gave birth to high-rise superstructures. Fazlur Rahman Khan's development of the tube structure was a technological break-through in building ever higher. By mid-century, Modernism had morphed into the International Style, an aesthetic epitomized in many ways by the Twin Towers of New York's World Trade Center designed by Minoru Yamasaki.</div>
+
+</div>
+
+<div class="card">
+
+        <div class="photo">
+            <img src="img6.jpg" width="100%"></div>
+
+            <div class="title">Chris Evans</div>
+
+            <div class="des">CEO & Founder</div>
+
+            <div class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam suscipit optio perspiciatis tempore culpa nostrum accusamus laudantium ipsam eligendi. Veritatis corporis, porro assumenda amet reiciendis nobis eum placeat accusamus repellendus.</div>
+
+            <button>Read More...</button>
+
+    </div>
+
+    <div class="card">
+
+        <div class="photo">
+            <img src="img7.jpg" width="100%"></div>
+
+            <div class="title">Angelina Jolie</div>
+
+            <div class="des">Interior Designer</div>
+
+            <div class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam suscipit optio perspiciatis tempore culpa nostrum accusamus laudantium ipsam eligendi. Veritatis corporis, porro assumenda amet reiciendis nobis eum placeat accusamus repellendus.</div>
+
+            <button>Read More...</button>
+
+    </div>
+
+    <div class="card">
+
+        <div class="photo">
+            <img src="img8.jpg" width="100%"></div>
+
+            <div class="title">Michael</div>
+
+            <div class="des">Exterior Designer</div>
+
+            <div class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam suscipit optio perspiciatis tempore culpa nostrum accusamus laudantium ipsam eligendi. Veritatis corporis, porro assumenda amet reiciendis nobis eum placeat accusamus repellendus.</div>
+
+            <button>Read More...</button>
+
+    </div>
+
+    <div class="card">
+
+        <div class="photo">
+            <img src="img9.jpg" width="100%"></div>
+
+            <div class="title">Dwayne Smith</div>
+
+            <div class="des">Architect</div>
+
+            <div class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam suscipit optio perspiciatis tempore culpa nostrum accusamus laudantium ipsam eligendi. Veritatis corporis, porro assumenda amet reiciendis nobis eum placeat accusamus repellendus.</div>
+
+            <button>Read More...</button>
+
+    </div>
+    
+    <div class="Contact" id="Contact">
+        
+        Contact
+    </div><hr>
+
+    <p id="sai">Lets get in touch and talk about your next project.</p></div>
+    <input type="text" width="100%" placeholder="Name" class="name">
+    <input type="text" width="100%" placeholder="Email" class="name">
+    <input type="text" width="100%" placeholder="Subject" class="name">
+    <input type="text" width="100%" placeholder="Comment" class="name">
+    
+    <button class="one">SEND MESSAGE</button>
+
+    <img src="img10.jpg" width="100%">
+
+    <div class="footer">
+
+        Powered by Sai Kiran Reddy
+
+
+    </div>
+
+
+
+    
+    
+    
+</body>
+</html>
